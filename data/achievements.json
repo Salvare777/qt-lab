@@ -1,0 +1,68 @@
+{
+    "achievements": [
+        {
+            "description": "第一次尝试--开始了！",
+            "icon_locked": ":/icons/1.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 1,
+            "is_unlocked": false,
+            "title": "小试牛刀"
+        },
+        {
+            "description": "完成10道简单题",
+            "icon_locked": ":/icons/2.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 2,
+            "is_unlocked": false,
+            "title": "难不倒我！"
+        },
+        {
+            "description": "完成10道中等题",
+            "icon_locked": ":/icons/3.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 3,
+            "is_unlocked": false,
+            "title": "有点意思"
+        },
+        {
+            "description": "完成10道困难题",
+            "icon_locked": ":/icons/4.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 4,
+            "is_unlocked": false,
+            "title": "噩梦的开始"
+        },
+        {
+            "description": "累计完成50道题",
+            "icon_locked": ":/icons/5.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 5,
+            "is_unlocked": false,
+            "title": "冒险家"
+        },
+        {
+            "description": "累计完成100道题",
+            "icon_locked": ":/icons/6.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 6,
+            "is_unlocked": false,
+            "title": "大师"
+        },
+        {
+            "description": "完成全部困难题且平均得分大于3000",
+            "icon_locked": ":/icons/7.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 7,
+            "is_unlocked": true,
+            "title": "如神一般"
+        },
+        {
+            "description": "是终点，亦或是起点？",
+            "icon_locked": ":/icons/8.jpg",
+            "icon_unlocked": ":/icons/unlocked.png",
+            "id": 8,
+            "is_unlocked": false,
+            "title": "旅途的终点"
+        }
+    ]
+}
