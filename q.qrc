@@ -11,6 +11,7 @@
      <file>icons/7.jpg</file>
      <file>icons/8.jpg</file>
      <file>icons/unlocked.png</file>
-    <file>data/achievements.json</file>
+     <file>icons/trophy.png</file>
+     <file>data/achievements.json</file>
   </qresource>
 </RCC>

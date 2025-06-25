@@ -1,0 +1,8 @@
+D:/code.qt/project/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/debug/./saves/20211123070244.png	2025-06-24	291	319
+D:/code.qt/project/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/debug/./saves/qino.jpg	2025-06-19	320	358
+	2025-06-18	0	0
+	2025-06-18	0	0
+D:/code.qt/project/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/debug/./saves/屏幕截图 2024-06-20 151833.png	2025-06-04	0	0
+D:/code.qt/project/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/debug/./saves/屏幕截图 2024-06-20 152020.png	2025-06-24	263	335
+D:/code.qt/project/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/debug/./saves/屏幕截图 2024-06-21 154724.png	2024-06-24	205	348
+D:/code.qt/project/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/debug/./saves/e3135c51ad10f40038da00faefc631ba86454728.jpg@1192w.jpg	2025-06-11	283	619

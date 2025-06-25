@@ -23,3 +23,9 @@ void MyLabel::paintEvent(QPaintEvent *event) {
         painter.drawEllipse(lastPoint, 4, 4);
     }
 }
+
+void MyLabel::setLastPoint(const QPoint& point) {
+    lastPoint = point;
+    hasPoint = true;
+    update(); // 触发重绘
+}

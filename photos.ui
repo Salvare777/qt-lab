@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>photos</class>
+ <widget class="QWidget" name="photos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #dbeafe,
+        stop:1 #ffffff
+    );
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>730</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: white;
+  color: #2980b9;                      /* 蓝色文字 */
+  border: 2px solid #2980b9;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+}
+QPushButton:hover {
+  background-color: #ecf6fb;           /* 悬停时微蓝背景 */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>551</width>
+     <height>668</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>670</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: #a93226;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+QPushButton:hover {
+  background-color: white;
+  color: #a93226;
+  border: 2px solid #a93226;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>next</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="datecheck">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>570</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+            background-color: #1E90FF;
+            color: white;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            spacing: 8px;
+        }
+        QCheckBox::indicator {
+            width: 20px;
+            height: 20px;
+            border: 2px solid white;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        QCheckBox::indicator:checked {
+            background-color: white;
+            border: 2px solid #0047AB;
+        }</string>
+   </property>
+   <property name="text">
+    <string>date</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="monthcheck">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>570</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+            background-color: #4169E1;
+            color: white;
+            border-radius: 15px;
+            padding: 12px 15px;
+            font-size: 14px;
+            font-weight: bold;
+            spacing: 10px;
+        }
+        QCheckBox::indicator {
+            width: 24px;
+            height: 24px;
+            border: 2px solid white;
+            border-radius: 12px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        QCheckBox::indicator:checked {
+            background-color: white;
+            border: 2px solid #0047AB;
+        }</string>
+   </property>
+   <property name="text">
+    <string>month</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="yearcheck">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>570</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+            background: qlineargradient(x1:0, y1:0, x2:0, y2:1, 
+                                        stop:0 #1E90FF, stop:1 #0047AB);
+            color: white;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 16px;
+            font-weight: bold;
+            spacing: 12px;
+            border: 2px solid #87CEEB;
+        }
+        QCheckBox::indicator {
+            width: 22px;
+            height: 22px;
+            border: 2px solid white;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        QCheckBox::indicator:checked {
+            background-color: white;
+            border: 2px solid #FFD700;
+        }
+        QCheckBox:hover {
+            border: 2px solid #FFD700;
+        }</string>
+   </property>
+   <property name="text">
+    <string>year</string>
+   </property>
+   <property name="tristate">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="MyLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>130</y>
+     <width>641</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>30</y>
+     <width>261</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>-1</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-family: &quot;微软雅黑&quot;; /* 或者使用 'Arial', 'Segoe UI' 等现代字体 */
+    font-size: 24px;
+    font-weight: bold;
+    
+    /* 文字颜色 - 选择与淡蓝背景对比度高的颜色 */
+    color: #2c3e50; /* 深蓝色灰 */
+    /* 或者使用白色文字 (如果背景是深蓝色) */
+    /* color: white; */
+    
+    /* 文本对齐 */
+    text-align: center;
+    
+    /* 背景设置 - 可以使用半透明或渐变效果 */
+    background-color: rgba(255, 255, 255, 0.3); /* 半透明白色背景 */
+    /* 或者使用渐变背景 */
+    /* background: qlineargradient(x1:0, y1:0, x2:1, y2:0, 
+                              stop:0 rgba(173, 216, 230, 0.7), 
+                              stop:1 rgba(224, 255, 255, 0.9)); */
+    
+    /* 边框设置 */
+    border: 2px solid #3498db; /* 中等蓝色边框 */
+    border-radius: 10px; /* 圆角 */
+    
+    /* 边距和内边距 */
+    padding: 10px 20px;
+    margin: 10px;
+    
+    /* 文字阴影 - 可选，增强可读性 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);</string>
+   </property>
+   <property name="text">
+    <string>查看当时的回忆！</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header>mylabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

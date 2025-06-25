@@ -13,6 +13,9 @@ SOURCES += \
     MainWindow.cpp \
     achievementcard.cpp \
         achievementmanager.cpp \
+    album.cpp \
+    game.cpp \
+    photos.cpp \
    progress.cpp\
     e.cpp\
     global.cpp\
@@ -21,12 +24,17 @@ SOURCES += \
     mylabel.cpp\
         progressmanager.cpp \
     scorer.cpp \
+    statistic.cpp \
     submit.cpp
 HEADERS += \
     AchievementItemWidget.h \
     achievementcard.h \
     achievementmanager.h \
+    album.h \
+    game.h \
     mainwindow.h \
+    mapmarker.h \
+    photos.h \
     progress.h\
     e.h\
     global.h\
@@ -34,13 +42,17 @@ HEADERS += \
     mylabel.h\
     progressmanager.h \
     scorer.h \
+    statistic.h \
     submit.h
 
 FORMS += \
         AchievementItemWidget.ui\
+        game.ui \
+        photos.ui \
         scorer.ui\
         e.ui\
         m.ui \
+        statistic.ui \
         submit.ui
 
 TRANSLATIONS += \

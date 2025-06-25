@@ -13,7 +13,7 @@
             "icon_locked": ":/icons/2.jpg",
             "icon_unlocked": ":/icons/unlocked.png",
             "id": 2,
-            "is_unlocked": false,
+            "is_unlocked": true,
             "title": "难不倒我！"
         },
         {
@@ -21,7 +21,7 @@
             "icon_locked": ":/icons/3.jpg",
             "icon_unlocked": ":/icons/unlocked.png",
             "id": 3,
-            "is_unlocked": false,
+            "is_unlocked": true,
             "title": "有点意思"
         },
         {
@@ -29,7 +29,7 @@
             "icon_locked": ":/icons/4.jpg",
             "icon_unlocked": ":/icons/unlocked.png",
             "id": 4,
-            "is_unlocked": false,
+            "is_unlocked": true,
             "title": "噩梦的开始"
         },
         {
@@ -37,7 +37,7 @@
             "icon_locked": ":/icons/5.jpg",
             "icon_unlocked": ":/icons/unlocked.png",
             "id": 5,
-            "is_unlocked": false,
+            "is_unlocked": true,
             "title": "冒险家"
         },
         {
@@ -45,7 +45,7 @@
             "icon_locked": ":/icons/6.jpg",
             "icon_unlocked": ":/icons/unlocked.png",
             "id": 6,
-            "is_unlocked": false,
+            "is_unlocked": true,
             "title": "大师"
         },
         {
@@ -61,7 +61,7 @@
             "icon_locked": ":/icons/8.jpg",
             "icon_unlocked": ":/icons/unlocked.png",
             "id": 8,
-            "is_unlocked": false,
+            "is_unlocked": true,
             "title": "旅途的终点"
         }
     ]

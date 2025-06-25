@@ -18,9 +18,9 @@ AchievementManager::AchievementManager() {
 }
 
 QString AchievementManager::getFilePath() const {
-    QString appData = "C:/Users/monkey2187/Desktop/achievement_system/achievement_system/data";
+    QString appData = "../..";
 
-    return appData + "/achievements.json";
+    return appData + "/data/achievements.json";
 }
 
 void AchievementManager::load() {

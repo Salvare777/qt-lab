@@ -11,6 +11,8 @@ public:
 
     QPoint getLastPoint() const { return lastPoint; }
 
+    void setLastPoint(const QPoint& point);
+
 signals:
     void clicked(const QPoint& point);
 

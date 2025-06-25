@@ -2,6 +2,9 @@ release/AchievementItemWidget.o
 release/MainWindow.o
 release/achievementcard.o
 release/achievementmanager.o
+release/album.o
+release/game.o
+release/photos.o
 release/progress.o
 release/e.o
 release/global.o
@@ -10,10 +13,16 @@ release/main.o
 release/mylabel.o
 release/progressmanager.o
 release/scorer.o
+release/statistic.o
+release/submit.o
 release/qrc_q.o
 release/qrc_qmake_qmake_qm_files.o
+release/moc_game.o
 release/moc_mainwindow.o
+release/moc_photos.o
 release/moc_e.o
 release/moc_m.o
 release/moc_mylabel.o
 release/moc_scorer.o
+release/moc_statistic.o
+release/moc_submit.o

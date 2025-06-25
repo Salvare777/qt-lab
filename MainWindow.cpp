@@ -2,6 +2,7 @@
 #include "mainwindow.h"
 #include "AchievementItemWidget.h"
 #include "achievementmanager.h"
+#include "album.h"
 #include <QListWidget>
 #include <QVBoxLayout>
 #include <QPushButton>
@@ -23,6 +24,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
     layout->addWidget(m_listWidget);
 
    // 加载初始数据
+    readfromfile();
     loadAchievements();
 }
 

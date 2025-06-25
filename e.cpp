@@ -31,7 +31,7 @@ map::map(QWidget *parent) : QWidget(parent), ui(new Ui::map) {
         lastClickPos = pos;
         qDebug()<<lastClickPos.rx()<<lastClickPos.ry();
     });
-    QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/map.png"));
+    QPixmap pixmap(QString("../../map.png"));
     ui->label->setPixmap(
         pixmap.scaled(ui->label->size(), Qt::KeepAspectRatio)
         );
@@ -42,14 +42,14 @@ map::map(QWidget *parent) : QWidget(parent), ui(new Ui::map) {
 void map::showCurrentImage() {
     if(diff==1){
         if(ecp>=1&&ecp<=16){
-            QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/img/easy/%1.png").arg(ecp));
+            QPixmap pixmap(QString("../../img/easy/%1.png").arg(ecp));
             pixmap.setDevicePixelRatio(devicePixelRatio());
             ui->imagelabel->setPixmap(
                 pixmap.scaled(ui->imagelabel->size(), Qt::KeepAspectRatio)
                 );
             ui->imagelabel->setAlignment(Qt::AlignCenter);
         }else if(ecp<=39){
-            QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/img/easy/%1.jpg").arg(ecp));
+            QPixmap pixmap(QString("../../img/easy/%1.jpg").arg(ecp));
             pixmap.setDevicePixelRatio(devicePixelRatio());
             ui->imagelabel->setPixmap(
                 pixmap.scaled(ui->imagelabel->size(),
@@ -61,7 +61,7 @@ void map::showCurrentImage() {
     }
     if(diff==2){
         if(ncp>=1&&ncp<=26){
-            QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/img/middle/%1.jpg").arg(ncp));
+            QPixmap pixmap(QString("../../img/middle/%1.jpg").arg(ncp));
             pixmap.setDevicePixelRatio(devicePixelRatio());
             ui->imagelabel->setPixmap(
                 pixmap.scaled(ui->imagelabel->size(),
@@ -70,7 +70,7 @@ void map::showCurrentImage() {
                 );
             ui->imagelabel->setAlignment(Qt::AlignCenter);
         }else if(ncp<=38){
-            QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/img/middle/%1.png").arg(ncp));
+            QPixmap pixmap(QString("../../img/middle/%1.png").arg(ncp));
             pixmap.setDevicePixelRatio(devicePixelRatio());
             ui->imagelabel->setPixmap(
                 pixmap.scaled(ui->imagelabel->size(), Qt::KeepAspectRatio)
@@ -80,7 +80,7 @@ void map::showCurrentImage() {
     }
     if(diff==3){
         if(hcp>=1&&hcp<=27){
-            QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/img/hard/%1.jpg").arg(hcp));
+            QPixmap pixmap(QString("../../img/hard/%1.jpg").arg(hcp));
             pixmap.setDevicePixelRatio(devicePixelRatio());
             ui->imagelabel->setPixmap(
                 pixmap.scaled(ui->imagelabel->size(),
@@ -89,7 +89,7 @@ void map::showCurrentImage() {
                 );
             ui->imagelabel->setAlignment(Qt::AlignCenter);
         }else if(hcp<=42){
-            QPixmap pixmap(QString("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/img/hard/%1.png").arg(hcp));
+            QPixmap pixmap(QString("../../img/hard/%1.png").arg(hcp));
             pixmap.setDevicePixelRatio(devicePixelRatio());
             ui->imagelabel->setPixmap(
                 pixmap.scaled(ui->imagelabel->size(), Qt::KeepAspectRatio)
@@ -203,7 +203,7 @@ void map::on_pushButton_clicked()
             achIcon = achIcon.scaled(100, 100, Qt::KeepAspectRatio, Qt::SmoothTransformation);
         } else {
             // 如果没有图标则使用默认图标
-            achIcon = QPixmap("C:/Users/monkey2187/Desktop/achievement_system/achievement_system/icons/default_achievement.png").scaled(100, 100);
+            achIcon = QPixmap("../../icons/default_achievement.png").scaled(100, 100);
         }
         iconLabel->setPixmap(achIcon);
         iconLabel->setAlignment(Qt::AlignCenter);
