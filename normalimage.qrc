@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>img/middle/1.jpg</file>
+        <file>img/middle/2.jpg</file>
+        <file>img/middle/3.jpg</file>
+        <file>img/middle/4.jpg</file>
+        <file>img/middle/5.jpg</file>
+        <file>img/middle/6.jpg</file>
+        <file>img/middle/7.jpg</file>
+        <file>img/middle/8.jpg</file>
+        <file>img/middle/9.jpg</file>
+        <file>img/middle/10.jpg</file>
+        <file>img/middle/11.jpg</file>
+        <file>img/middle/12.jpg</file>
+        <file>img/middle/13.jpg</file>
+        <file>img/middle/14.jpg</file>
+        <file>img/middle/15.jpg</file>
+        <file>img/middle/16.jpg</file>
+        <file>img/middle/17.jpg</file>
+        <file>img/middle/18.jpg</file>
+        <file>img/middle/19.jpg</file>
+        <file>img/middle/20.jpg</file>
+        <file>img/middle/21.jpg</file>
+        <file>img/middle/22.jpg</file>
+        <file>img/middle/23.jpg</file>
+        <file>img/middle/24.jpg</file>
+        <file>img/middle/25.jpg</file>
+        <file>img/middle/26.jpg</file>
+        <file>img/middle/27.png</file>
+        <file>img/middle/28.png</file>
+        <file>img/middle/29.png</file>
+        <file>img/middle/30.png</file>
+        <file>img/middle/31.png</file>
+        <file>img/middle/32.png</file>
+        <file>img/middle/33.png</file>
+        <file>img/middle/34.png</file>
+        <file>img/middle/35.png</file>
+        <file>img/middle/36.png</file>
+        <file>img/middle/37.png</file>
+        <file>img/middle/38.png</file>
+    </qresource>
+</RCC>
